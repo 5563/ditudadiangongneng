@@ -36,3 +36,12 @@ pnpm dev
 ```sh
 pnpm build
 ```
+
+## Deploy to GitHub Pages
+
+1. Push code to GitHub and ensure default branch is `main`.
+2. In repository settings, open `Pages`.
+3. Under `Build and deployment`, choose `GitHub Actions`.
+4. Push to `main` again (or manually run the workflow `Deploy to GitHub Pages`).
+5. After workflow succeeds, open:
+   - `https://<your-username>.github.io/<your-repo-name>/`
